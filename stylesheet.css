@@ -1,3 +1,39 @@
 body {
 	background-color: #f4f4f4;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.headline{
+	background-color: white;
+	border-style: solid;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 2em;
+    text-align:center;
+}
+#myname{
+	margin-bottom:0;
+}
+.navbarul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.navbarli {
+    float: left;
+}
+
+.navbarli a {
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.navbarli a:hover {
+    color:red;
 }
