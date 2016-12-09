@@ -11,12 +11,14 @@ body {
     margin: 0 auto;
     margin-bottom:2%;
     width:80%;
-    max-width: 1250px;
+    max-width: 1000px;
+    padding-left:1%;
+    padding-right:1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main{
 	width:80%;
-	max-width: 1250px;
+	max-width: 1000px;
 	background-color: white;
 	border-style: solid;
     font-size: 1.75em;
@@ -24,14 +26,31 @@ body {
     overflow:hidden;
     margin: 0 auto;
     padding-top:1%;
+    padding-left:1%;
+    padding-right:1%;
     padding-bottom:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blogpost{
+	width:80%;
+	max-width: 1000px;
+	background-color: white;
+	border-style: solid;
+    font-size: 1.75em;
+    text-align:left;
+    overflow:hidden;
+    margin: 0 auto;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+    padding-right:1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #myname{
 	margin-bottom:0;
 	display:block;
 }
-h2{
+.marginbottom h2{
 	font-size:1.5em;
 	margin-bottom:0;
 }
@@ -85,7 +104,7 @@ a:active {
     margin-bottom:1%;
 }
 .centered{
-
+	text-align:center;
 }
 .nobullet{
 	list-style-type: none;
