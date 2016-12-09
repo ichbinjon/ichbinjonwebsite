@@ -12,6 +12,7 @@ body {
     margin-bottom:2%;
     width:80%;
     max-width: 1250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .main{
 	width:80%;
@@ -22,6 +23,9 @@ body {
     text-align:center;
     overflow:hidden;
     margin: 0 auto;
+    padding-top:1%;
+    padding-bottom:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #myname{
 	margin-bottom:0;
@@ -47,6 +51,19 @@ h4{
     float: left;
 }
 
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: hotpink;
+}
+
 .navbarli a {
     color: black;
     text-align: center;
@@ -60,7 +77,7 @@ h4{
 .img-circle {
     border-radius: 50%;
     float:left;
-    width:25%;
+    width:30%;
     height:auto;
     margin-left:1%;
     margin-top:1%;
@@ -69,4 +86,14 @@ h4{
 }
 .centered{
 
+}
+.nobullet{
+	list-style-type: none;
+}
+.biggerfont{
+	font-size:1.2em;
+	font-weight:bold;
+	padding-right:5px;
+	padding-left:5px;
+	display:inline-block;
 }
